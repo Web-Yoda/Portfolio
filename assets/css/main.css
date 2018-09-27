@@ -1636,3 +1636,85 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		/* Work gallery
+
+	{
+	    box-sizing: border-box;
+	}
+
+	body {
+	    background-color: #1b1f22;
+	    padding: 20px;
+	    font-family: Arial;
+	}
+
+	/* Center website */
+	.main {
+	    max-width: 1000px;
+	    margin: auto;
+	}
+
+	.row {
+	    margin: 10px -16px;
+	}
+
+	/* Add padding BETWEEN each column */
+	.row,
+	.row > .column {
+	    padding: 8px;
+	}
+
+	/* Create three equal columns that floats next to each other */
+	.column {
+	    float: left;
+	    width: 33.33%;
+	    display: none; /* Hide all elements by default */
+	}
+
+	/* Clear floats after rows */ 
+	.row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+
+	/* Content */
+	.container {
+	    background-color: #1b1f22;
+	    color: white;
+	    padding: 10px;
+	    cursor: pointer;
+	}
+	.container:hover {
+	  background-color: #616161;
+	}
+
+	/* The "show" class is added to the filtered elements */
+	.show {
+	  display: block;
+	}
+
+	/* Style the buttons */
+	.btn {
+	  border: none;
+	  outline: none;
+	  padding: 10px 20px;
+	  background-color: white;
+	  cursor: pointer;
+	  text-decoration: none;
+	  text-align: center;
+	  line-height: 2px;
+	  margin: 4px 2px;
+	  border-radius: 36px;
+	  background-color: #1b1f22;
+	}
+
+	.btn:hover {
+	  background-color: #616161;
+	}
+
+	.btn.active {
+	  background-color: #626262;
+	  color: white;
+	}
